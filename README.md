@@ -1,2 +1,3 @@
-# tlo
-Certus Top-level Ontology Framework
+# cerDO
+
+the Certus Data Ontology Framework

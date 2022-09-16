@@ -6,7 +6,7 @@ Release v0.1.0
 
 ### Sharing and Contribution
 
-This project is by data professionals for data professionals at all levels. As a result, we definitely want to keep improving the framework's content for the broadest community use possible. Please share and refer to the contributor's guide in the Wiki for how to submit updates to cerDO.
+This project is by data professionals for data professionals at all levels. As a result, we definitely want to keep improving the framework's content for the broadest community use possible. Please share and refer to the contributor's guide for how to submit updates to cerDO.
 
 ### License
 

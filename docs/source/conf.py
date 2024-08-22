@@ -1,3 +1,5 @@
+# pylint: disable=C0103,W0622,C0114,C0301
+# flake8: noqa
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -9,7 +11,7 @@
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#
+import datetime
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
@@ -18,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'cerDO'
-copyright = '2022, Certus Core'
+copyright = f'{datetime.datetime.now().year} Certus Core. All rights reserved'
 author = "<a href='https://certusgroup.org' target='_blank'>Certus Core</a>"
 
 # The full version, including alpha/beta/rc tags
@@ -34,8 +36,11 @@ extensions = [
         'myst_parser',
 ]
 
+# MyST-Parser Configuration
+myst_footnote_transition = False
+
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -52,12 +57,11 @@ html_theme_options = {
     "repository_url": "https://github.com/CertusGroup/cerdo",
     "use_repository_button": True,
     "use_issues_button": True,
-    "extra_navbar": "<a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>",
-    "logo_only": True,
+    "primary_sidebar_end": ["certus_core"],
 }
-html_title = "the Certus Data Ontology Framework"
-html_logo = "static/images/cerdo_logo.jpg"
-html_favicon = "static/images/cerdo_logo.jpg"
+html_title = "the Certus Data Ontology Standard"
+html_logo = "static/images/logo-cerdo.png"
+html_favicon = "static/images/logo-favicon.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

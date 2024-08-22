@@ -38,7 +38,7 @@
 
 **occurrent.** An entity that unfolds itself in time.
 
-**ontology.** A representational artifact, generally in the form of an enriched taxonomy outlining universal entities, classes, and their relationships.
+**ontology.** A hierarchical understanding of defined things that exist in a specified domain of knowledge. A representational artifact of the study of what exists, generally in the form of an enriched taxonomy outlining universal entities, classes, and their relationships.
 
 **property graph.** This type of graph allows each node to connect to an edge, each having multiple properties, ultimately enhancing description of relationships in the knowledge graph.
 

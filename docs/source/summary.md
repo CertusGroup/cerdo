@@ -60,7 +60,8 @@ Knowledge systems require effort to build and maintain if the desired outcome is
 
 Knowledge systems should enable adaptive ideas and versioning of structured knowledge artifacts. Expert knowledge and data state shift based on a number of factors, but these are factors that should be reflected in the entity representations of the system itself. Care should be taken to ensure that the domain of knowledge, its rules and data state, are structurally poised to adapt to systemic and practical changes without compromising legacy rules and semantic structures by which the entities act within valid networks of real-world processes. The use of a top-level ontology answers many of these challenges, making it difficult to break functional components of knowledge systems once they are validated and established.
 
-Mobilizing knowledge in this way takes time. Domain ontologies must adapt to changes over time while also complying with top-level governance, data governance[^12](#references), and data management[^13](#references) standards. This compliance includes considerations and methods to standardize axiomatic expressions and logical reasoning, ultimately balancing adaptive shifts in knowledge structures. Data ontology standards like cerDO take time to setup as it protects against these failure points when establishing and scaling knowledge systems. In addition to systematizing the development, use, and maintenance of ontologies, common language and logic fosters and grows enculturated knowledge practices within communities of domain experts. 
+Mobilizing knowledge in this way takes time. Domain ontologies must adapt to changes over time while also complying with top-level governance, data governance[^12], and data management[^13]
+ standards. This compliance includes considerations and methods to standardize axiomatic expressions and logical reasoning, ultimately balancing adaptive shifts in knowledge structures. Data ontology standards like cerDO take time to setup as it protects against these failure points when establishing and scaling knowledge systems. In addition to systematizing the development, use, and maintenance of ontologies, common language and logic fosters and grows enculturated knowledge practices within communities of domain experts. 
 
 Data management and governance are critical for knowledge system success. Data volume continues to grow and their semantic connection is increasingly complex to model in data systems. Data is often messy and its origins opaque to the engineers and managers required to make these assets usable by data customers. These assets require reliable structure, metadata, and insight to ensure the context of application and its limitations are understood prior to and following exploratory data analysis and modeling. If knowledge systems are to be canonical repositories for domain knowledge, the observations and models that validate its existent must be as consistent and rigorous as the entity representations they support.
 
@@ -92,13 +93,17 @@ The goal of cerDO is to make a very difficult ontology building process easier t
 
 Each phase engages with the essential elements of your knowledge model. First, knowledge artifacts are documented and structured into conceptual entity relationships using the best available information from subject-matter experts and communities of practice. The entity model is then aligned, element by element, to a top-level ontology, ensuring consistency across domain ontology models and their derivative knowledge graphs. Finally, the entities integrate a schema to align data state to the domain ontology in way that supports the class relationships established in previous stages.
 
-This process ultimately demonstrates the myriad reasons connections between data, information, and knowledge artifacts are critical when building knowledge governance systems. Each data asset, often processed from some raw format, must maintain a consolidated artifact of lineage and provenance to ensure proper domain modeling and data alignment. This information, through a careful application of metadata and data management practices, ensures tagged domain entities connect to labeled data asset dimensions the same way every time. Schema assists in this effort, enforcing consistent data type application in asset management across domain ontology models despite shifts in data state. These fundamental tenets guide governance at all levels, connecting data operations[^14](#references) at each level to the efficacy of the others. As a result, efforts can reliably reproduce network effects aligned with subject-matter expert expectations while adapting within TLO and knowledge governance standards. 
+This process ultimately demonstrates the myriad reasons connections between data, information, and knowledge artifacts are critical when building knowledge governance systems. Each data asset, often processed from some raw format, must maintain a consolidated artifact of lineage and provenance to ensure proper domain modeling and data alignment. This information, through a careful application of metadata and data management practices, ensures tagged domain entities connect to labeled data asset dimensions the same way every time. Schema assists in this effort, enforcing consistent data type application in asset management across domain ontology models despite shifts in data state. These fundamental tenets guide governance at all levels, connecting data operations[^14] at each level to the efficacy of the others. As a result, efforts can reliably reproduce network effects aligned with subject-matter expert expectations while adapting within TLO and knowledge governance standards. 
 
 > Insert knowledge diagram here
 
-> Note: There are many ways to tackle these phases and their respective tasks: synchronously or concurrently with different methods and models. Due to this we encourage experienced ontology engineering practitioners to experiment and send feedback on best practices. Newcomers to these processes are encouraged to take this workflow slowly and with great consideration towards their specific needs and goals for the ontology structures they will ultimately build and deploy.
+```{note}
+There are many ways to tackle these phases and their respective tasks: synchronously or concurrently with different methods and models. Due to this we encourage experienced ontology engineering practitioners to experiment and send feedback on best practices. Newcomers to these processes are encouraged to take this workflow slowly and with great consideration towards their specific needs and goals for the ontology structures they will ultimately build and deploy.
+```
 
-> Note: This standard takes into account the work currently being explored in dimensional modeling and feature engineering for use in large, semantically-driven AI models. The intent of cerDO is to be complimentary to these efforts when applicable.
+```{note}
+This standard takes into account the work currently being explored in dimensional modeling and feature engineering for use in large, semantically-driven AI models. The intent of cerDO is to be complimentary to these efforts when applicable.
+```
 
 ### Domain Modeling
 
@@ -120,8 +125,6 @@ It is important to start this process with confidence: this process is intended 
 
 ## References
 
-Number|Reference
---|--
 [^1]: Arp, R., Smith, B., Spear, A.D. (2015). *Building Ontologies with Basic Formal Ontology*. MIT Press
 [^2]: Berners-Lee, T., Hendler, J., Lassila, O. (2001). The Semantic Web. *Scientific American*, 284(5), 34–43. https://doi.org/10.1038/scientificamerican0501-34
 [^3]: W3C OWL Working Group (2012). *OWL 2 Web Ontology Language*. Available at https://www.w3.org/TR/owl2-overview/
@@ -129,12 +132,12 @@ Number|Reference
 [^5]: Gruber, T. (1993). A translation approach to portable ontology specifications. *Knowledge Acquisition*, 5(2), 199-220.
 [^6]: Leondes, Cornelius T. (2002). *Expert systems: the technology of knowledge management and decision making for the 21st century*. Academic Press.
 [^7]: Keet, C. M. (2018). An Introduction to Ontology Engineering. College Publications.
-[^8]|Steup, M., Neta, R. (2020). "Epistemology", The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Edward N. Zalta (ed.).
-[^9]|Tahko, T.E. (2015). An introduction to metametaphysics. Cambridge Press.
-[^10]|Sharda, R., Delen, D., Turban, E. (2019). *Analytics, data science, & artificial intelligence: Systems for decision support (11th ed.).* Pearson.
-[^11]|Kitchin, R., Dodge, M. (2014). *Code/space: Software and everyday life.* Mit Press.
-[^12]|Ladley, J. (2019). *Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)*. San Diego, CA: Academic Press.
-[^13]|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
-[^14]|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
+[^8]: Steup, M., Neta, R. (2020). "Epistemology", The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Edward N. Zalta (ed.).
+[^9]: Tahko, T.E. (2015). An introduction to metametaphysics. Cambridge Press.
+[^10]: Sharda, R., Delen, D., Turban, E. (2019). *Analytics, data science, & artificial intelligence: Systems for decision support (11th ed.).* Pearson.
+[^11]: Kitchin, R., Dodge, M. (2014). *Code/space: Software and everyday life.* Mit Press.
+[^12]: Ladley, J. (2019). *Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)*. San Diego, CA: Academic Press.
+[^13]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^14]: Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
 
 

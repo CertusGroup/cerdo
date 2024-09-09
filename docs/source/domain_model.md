@@ -120,4 +120,4 @@ There are several challenges associated with building conceptual models and doma
 
 ## References
 
-[^1]: ciuTshi: The adaptable data operations framework. Available at https://ciutshi.certuscore.com/
+[^1]: ciuTshi The adaptable data operations framework. Available at https://ciutshi.certuscore.com/

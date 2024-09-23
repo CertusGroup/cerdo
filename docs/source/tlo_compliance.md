@@ -156,7 +156,7 @@ As stated above, each entity must have instances to canonically exist in an onto
 
 ### Validate the Ontology... Again
 
-Before proceeding to data modeling, the ontologists and knowledge engineers should review the domain ontology for any errors or untested, unvalid aspects of the model. This includes checking to make sure all aspects and issues with the domain model were answered, that the domain ontology is TLO-compliant, and that there are connections to data for all entities. Metadata and documentation should be update, code should be version controlled, and any tasks should be updated to ensure continued process improvement with this and other domain ontology.
+Before proceeding to data modeling, the ontologists and knowledge engineers should review the domain ontology for any errors or untested, invalid aspects of the model. This includes checking to make sure all aspects and issues with the domain model were answered, that the domain ontology is TLO-compliant, and that there are connections to data for all entities. Metadata and documentation should be update, code should be version controlled, and any tasks should be updated to ensure continued process improvement with this and other domain ontology.
 
 ## References
 
@@ -173,6 +173,6 @@ Before proceeding to data modeling, the ontologists and knowledge engineers shou
 [^11] BFO 2020 Repository. https://github.com/BFO-ontology/BFO-2020)
 [^12] Sowa, J.F., Introduction to Common Logic. https://www.jfsowa.com/talks/clintro.pdf
 [^13] In BFO, continuants and occurrents are subclasses of “entity” which is in turn a subclass of “thing.” Knowledge engineers and ontologists will largely be working below the entity class, but the ontology is rooted at “thing” to ensure legacy connection to OWL RDF-compliant ontologies also rooted at “thing”.
-[^14] CCO link
-[^15] BFO ontology list
+[^14] Common Core Ontologies (CCO). Accessed at https://github.com/CommonCoreOntology/CommonCoreOntologies
+[^15] BFO - Users. https://basic-formal-ontology.org/users.html
 

@@ -16,8 +16,6 @@ This project is by data professionals for data professionals at all levels. As a
 
 ### License
 
-Copyright 2022-2024 Certus Core LLC.
-
 This content is subject to the terms of the GNU Lesser General Public License v3.0. If a copy of the LGPL-v3 was not distributed with this file, You can obtain one at https://www.gnu.org/licenses/lgpl-3.0.html.
 
 ```{toctree}

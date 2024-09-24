@@ -191,17 +191,17 @@ This process may take several attempts: do not be discouraged if the first deplo
 
 ## References
 
-[^1] Arp, R., Smith, B., Spear, A.D., Building Ontologies with Basic Formal Ontology.
-[^2] Fensel, D., Simsek, U., Angele, K., Huaman, E., Karle, E., Panasiuk, O., Toma, I., Umbrich, J., Wahler, A. Knowledge Graphs: Methodology, Tools, and Selected Use Cases.
-[^3] Borgatti, S.P., Everett, M.G., Johnson, J.C. Analyzing Social Networks.
-[^4] Wasserman, S., Faust, K. Social Network Analysis: Methods and Applications.
-[^5] Latour, B. Reassembling the Social: An Introduction to Actor-Network-Theory.
-[^6] Van Steen, M., Graph Theory and Complex Networks: An Introduction.
-[^7] W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
-[^8] Turtle. RDF 1.1 Turtle: Terse RDF Triple Language. https://www.w3.org/TR/turtle/
-[^9] Most major cloud providers have their own native graph database solution, able to leverage other data tools in their respective cloud ecosystems.
-[^10] Cost is always a major consideration. The scale and complexity of your data can impact architecture selection, with cloud being potentially the most costly long-term and bare-metal being costly near-term.
-[^11] Something else we can put into an ontology and knowledge graph... no pressure though: you'll be fine.
-[^12] If you are looking for a primer on these topics, there are many training resources for data and knowledge engineering online.
-[^13] Modeling. ciuTshi: The adaptable data ontology standard. Available at https://ciutshi.certuscore.com/modeling
+[^1]: Arp, R., Smith, B., Spear, A.D., Building Ontologies with Basic Formal Ontology.
+[^2]: Fensel, D., Simsek, U., Angele, K., Huaman, E., Karle, E., Panasiuk, O., Toma, I., Umbrich, J., Wahler, A. Knowledge Graphs: Methodology, Tools, and Selected Use Cases.
+[^3]: Borgatti, S.P., Everett, M.G., Johnson, J.C. Analyzing Social Networks.
+[^4]: Wasserman, S., Faust, K. Social Network Analysis: Methods and Applications.
+[^5]: Latour, B. Reassembling the Social: An Introduction to Actor-Network-Theory.
+[^6]: Van Steen, M., Graph Theory and Complex Networks: An Introduction.
+[^7]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
+[^8]: Turtle. RDF 1.1 Turtle: Terse RDF Triple Language. https://www.w3.org/TR/turtle/
+[^9]: Most major cloud providers have their own native graph database solution, able to leverage other data tools in their respective cloud ecosystems.
+[^10]: Cost is always a major consideration. The scale and complexity of your data can impact architecture selection, with cloud being potentially the most costly long-term and bare-metal being costly near-term.
+[^11]: Something else we can put into an ontology and knowledge graph... no pressure though: you'll be fine.
+[^12]: If you are looking for a primer on these topics, there are many training resources for data and knowledge engineering online.
+[^13]: Modeling. ciuTshi: The adaptable data ontology standard. Available at https://ciutshi.certuscore.com/modeling
 

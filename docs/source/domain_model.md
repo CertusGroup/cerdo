@@ -1,4 +1,4 @@
-# Domain Ontology Modeling
+# Domain Modeling
 
 ## Introduction
 

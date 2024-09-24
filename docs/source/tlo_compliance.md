@@ -160,19 +160,19 @@ Before proceeding to data modeling, the ontologists and knowledge engineers shou
 
 ## References
 
-[^1] Arp, R., Smith, B., Spear, A.D., Building Ontologies with Basic Formal Ontology.
-[^2] Roe, C., A Short History of Ontology: It’s Not Just a Matter of Philosophy Anymore. https://www.dataversity.net/a-short-history-of-ontology-its-not-just-a-matter-of-philosophy-anymore/; Also see Arp et al.
-[^3] Berners-Lee, T., Hendler, J., Lassila, O. The Semantic Web.
-[^4] W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
-[^5] W3C OWL Working Group. OWL 2 Web Ontology Language. https://www.w3.org/TR/owl2-overview/
-[^6] URN. Uniform Resource Name. https://en.m.wikipedia.org/wiki/Uniform_Resource_Name
-[^7] Musen, M.A. The Protégé project: A look back and a look forward.
-[^8] Smith, B. Ontology Tutorial: Semantic Technology for Intelligence, Defense and Security. https://www.slideshare.net/BarrySmith3/ontology-tutorial-semantic-technology-for-intelligence-defense-and-security
-[^9] ISO. ISO/IEC 21838-1: Information technology — Top-level ontologies (TLO). https://www.iso.org/standard/74572.html
-[^10] Also known as classes or types that are shared across domains
-[^11] BFO 2020 Repository. https://github.com/BFO-ontology/BFO-2020)
-[^12] Sowa, J.F., Introduction to Common Logic. https://www.jfsowa.com/talks/clintro.pdf
-[^13] In BFO, continuants and occurrents are subclasses of “entity” which is in turn a subclass of “thing.” Knowledge engineers and ontologists will largely be working below the entity class, but the ontology is rooted at “thing” to ensure legacy connection to OWL RDF-compliant ontologies also rooted at “thing”.
-[^14] Common Core Ontologies (CCO). Accessed at https://github.com/CommonCoreOntology/CommonCoreOntologies
-[^15] BFO - Users. https://basic-formal-ontology.org/users.html
+[^1]: Arp, R., Smith, B., Spear, A.D., Building Ontologies with Basic Formal Ontology.
+[^2]: Roe, C., A Short History of Ontology: It’s Not Just a Matter of Philosophy Anymore. https://www.dataversity.net/a-short-history-of-ontology-its-not-just-a-matter-of-philosophy-anymore/; Also see Arp et al.
+[^3]: Berners-Lee, T., Hendler, J., Lassila, O. The Semantic Web.
+[^4]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
+[^5]: W3C OWL Working Group. OWL 2 Web Ontology Language. https://www.w3.org/TR/owl2-overview/
+[^6]: URN. Uniform Resource Name. https://en.m.wikipedia.org/wiki/Uniform_Resource_Name
+[^7]: Musen, M.A. The Protégé project: A look back and a look forward.
+[^8]: Smith, B. Ontology Tutorial: Semantic Technology for Intelligence, Defense and Security. https://www.slideshare.net/BarrySmith3/ontology-tutorial-semantic-technology-for-intelligence-defense-and-security
+[^9]: ISO. ISO/IEC 21838-1: Information technology — Top-level ontologies (TLO). https://www.iso.org/standard/74572.html
+[^10]: Also known as classes or types that are shared across domains
+[^11]: BFO 2020 Repository. https://github.com/BFO-ontology/BFO-2020)
+[^12]: Sowa, J.F., Introduction to Common Logic. https://www.jfsowa.com/talks/clintro.pdf
+[^13]: In BFO, continuants and occurrents are subclasses of “entity” which is in turn a subclass of “thing.” Knowledge engineers and ontologists will largely be working below the entity class, but the ontology is rooted at “thing” to ensure legacy connection to OWL RDF-compliant ontologies also rooted at “thing”.
+[^14]: Common Core Ontologies (CCO). Accessed at https://github.com/CommonCoreOntology/CommonCoreOntologies
+[^15]: BFO - Users. https://basic-formal-ontology.org/users.html
 

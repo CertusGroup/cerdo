@@ -44,8 +44,8 @@ There is no need to stick to this exact workflow so long as all the information 
         * What position do they work for?
     * Where is this task performed?
         * What type of location is this?
-        * Is this location part of a larger space?
-        * Is this location part of a larger place?
+        * Is this location part of a larger conceptual space?
+        * Is this location part of a larger physical place?
     * When is this task performed?
         * Is there a start time and end time for this task?
         * Is this a continuous, periodic task?

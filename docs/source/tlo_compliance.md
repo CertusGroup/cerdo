@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Top-level ontology (TLO) methodologies are applied in artificial intelligence (AI), automated reasoning, data governance, and other topic areas where knowledge needs to be consistently structured with nuanced detail. It is difficult to convey meaning to a machine without some for of formalized knowledge data structures. These data structures must capture explicit, canonical information about the journey from observation to fact for things in the real world. As a result, AI and reasoning systems require systems of meta-metaphysics and logic to aid in capture of explicit knowledge and leaps around tacit knowledge.
+Top-level ontology (TLO) methodologies are applied in artificial intelligence (AI), automated reasoning, data governance, and other topic areas where knowledge needs to be consistently structured with nuanced detail. It is difficult to convey meaning to a machine without some form of formalized knowledge data structures. These data structures must capture explicit, canonical information about the journey from observation to fact for things in the real world. As a result, AI and reasoning systems require systems of meta-metaphysics and logic to aid in the capture of explicit knowledge and leaps around tacit knowledge.
 
 ### Origins
 

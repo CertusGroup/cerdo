@@ -1,2 +1,2 @@
-# Appendix - Scenario
+# Appendix - Knowledge Graph Scenario
 

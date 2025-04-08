@@ -1,2 +1,0 @@
-# Appendix - Structured Data Scenario
-

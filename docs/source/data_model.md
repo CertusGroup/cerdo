@@ -42,7 +42,7 @@ Mathematicians use graphs to understand relationships between entities within th
 
 These perspectives are extremely powerful in consideration of how ontology and knowledge graphs work together. Every day things, their processes, and your parts in them constitute a massive relational model that can be represented in a domain ontology, mobilized with a knowledge graph, and used to better understand the world. Even within computational systems, an equation is a relationship between expressions. As a result, the need to consistently, rigorously, and reliably produce and store the metadata and data associated with knowledge graphs is a key outcome of cerDO for every community of practice.
 
-#### Knowledge Graphs 
+#### Knowledge Graphs
 
 Knowledge graphs have distinguishing characteristics that make them a rich source of information for users and a challenge to construct and consistently maintain. The key feature that makes knowledge graphs special is the focus on the relationship as the primary unit of analysis. There are ways to leverage relational, document, and other database models to achieve these relationship representations, but they are often not optimized to enable their queries or maintain the relational state of the ontological entities and their deep canonical axioms. TLO-driven knowledge graphs are designed to represent the content of entity records and documents as fundamental knowledge units that encompasses defined things and their many relationships consistently over time.
 
@@ -58,9 +58,9 @@ cerDO, as a data ontology standard, supports these selections and processes thro
 
 ##### Architectures
 
-The size, shape, and complexity of data is rapidly increasing every day. The heterogeneous state of data structures, formats, encryptions, and access make the volume and velocity of data a key consideration for which formats, structures, and architectures are used to build and maintain a knowledge graph database. Knowledge graph databases can be built and deployed in several, or a mix or several, architectures. Local bare-metal, hybrid, or cloud deployments offer several options to engineers. Each provides their own benefits in terms of security, access, and overall maintainability of the system over time[^9][^10]. 
+The size, shape, and complexity of data is rapidly increasing every day. The heterogeneous state of data structures, formats, encryptions, and access make the volume and velocity of data a key consideration for which formats, structures, and architectures are used to build and maintain a knowledge graph database. Knowledge graph databases can be built and deployed in several, or a mix or several, architectures. Local bare-metal, hybrid, or cloud deployments offer several options to engineers. Each provides their own benefits in terms of security, access, and overall maintainability of the system over time[^9][^10].
 
-There are also a few major graph paradigms to consider for these deployments: RDF, property graph, and hypergraph databases. A RDF store, or triplestore, is a database paradigm optimized for the storage and retrieval of triples. This offers several advantages such as clear formatting and connection to metadata between TLO, domain, and instance objects, but these can become hard to manage and increasingly difficult to query as they grow in size and complexity. 
+There are also a few major graph paradigms to consider for these deployments: RDF, property graph, and hypergraph databases. A RDF store, or triplestore, is a database paradigm optimized for the storage and retrieval of triples. This offers several advantages such as clear formatting and connection to metadata between TLO, domain, and instance objects, but these can become hard to manage and increasingly difficult to query as they grow in size and complexity.
 
 A property graph paradigm is more familiar to those users of traditional RDBMS, allowing each node to connect to an edge via table relations, each having multiple properties, and ultimately enhancing description of relationships in the knowledge graph. This approach can have initial benefits for scaling and queries, but can become a challenge to manage as schema and entity relations become more complex.
 
@@ -204,11 +204,10 @@ This process may take several attempts: do not be discouraged if the first deplo
 [^4]: Wasserman, S., Faust, K. Social Network Analysis: Methods and Applications.
 [^5]: Latour, B. Reassembling the Social: An Introduction to Actor-Network-Theory.
 [^6]: Van Steen, M., Graph Theory and Complex Networks: An Introduction.
-[^7]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
-[^8]: Turtle. RDF 1.1 Turtle: Terse RDF Triple Language. https://www.w3.org/TR/turtle/
+[^7]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. <https://www.w3.org/TR/rdf-schema/>
+[^8]: Turtle. RDF 1.1 Turtle: Terse RDF Triple Language. <https://www.w3.org/TR/turtle/>
 [^9]: Most major cloud providers have their own native graph database solution, able to leverage other data tools in their respective cloud ecosystems.
 [^10]: Cost is always a major consideration. The scale and complexity of your data can impact architecture selection, with cloud being potentially the most costly long-term and bare-metal being costly near-term.
 [^11]: Something else we can put into an ontology and knowledge graph... no pressure though: you'll be fine.
 [^12]: If you are looking for a primer on these topics, there are many training resources for data and knowledge engineering online.
-[^13]: Modeling. ciuTshi: The adaptable data ontology standard. Available at https://ciutshi.certuscore.com/modeling
-
+[^13]: Modeling. ciuTshi: The adaptable data ontology standard. Available at <https://ciutshi.certuscore.com/modeling>

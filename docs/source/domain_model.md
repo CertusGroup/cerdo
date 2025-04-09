@@ -2,7 +2,7 @@
 
 ## Introduction
 
-People build and utilize domains of knowledge in their daily lives. From doing the dishes to reporting at work, complex networks of things interacting with other things are scaled to immense proportions within and between several people, places, and things. The complex state of domain knowledge cannot be understated, but the understanding of how these systems work is paramount. Every relationship in this network starts small and then builds as required by actors in the network. 
+People build and utilize domains of knowledge in their daily lives. From doing the dishes to reporting at work, complex networks of things interacting with other things are scaled to immense proportions within and between several people, places, and things. The complex state of domain knowledge cannot be understated, but the understanding of how these systems work is paramount. Every relationship in this network starts small and then builds as required by actors in the network.
 
 It is important to take time in understanding the knowledge to be represented in your domain ontology. From the basic concepts within a discipline to the often complex processes professionals use in those specialized spaces, it is important to engage with the fundamental understanding of how those processes and concepts interact and constitute a domain of applied ontological practice. The modeling of the conceptual domains should show what agents and actants[^1] are present in those practices and how their relationships build a clearer picture of a community of practice perpetuating their activities towards expected outcomes.
 
@@ -128,4 +128,3 @@ There are several challenges associated with building conceptual models and doma
 ## References
 
 [^1]: Latour, B. Reassembling the Social: An Introduction to Actor-Network-Theory.
-[^2]: ciuTshi: The adaptable data operations framework. Available at https://ciutshi.certuscore.com/

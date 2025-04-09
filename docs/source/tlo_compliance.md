@@ -34,7 +34,7 @@ Instances are data observations in reality of a given domain entity which compli
 
 Modularity plays a large role in this TLO standardization, allowing for efficient division of labor and specialization for modelers and SMEs. An entity universal can be refined through more specific domain classes, becoming as granular as necessary, yet still general and in compliance with its universal's definition and logic. It must also be stated that all entities have an evolution throughout their conceptualization by modelers, SMEs, knowledge engineers, and ontologists. As a result, domain ontologies may change or shift over time: the TLO should NOT shift and domain ontology must remain compliant to the TLO, only becoming more granular to resolve any conflicts with entity instantiation and data state.
 
-The features of BFO 2020 and ISO 21838-2 simplify and enrich the translation between data assets and languages through consistent and rigorous entity representation, collapsing dimensions for data modeling and analysis. Keeping domain models constrained and controlled via TLO standards encourages control over the dimensions which can represent an entity within a domain model. Additionally, integration of instances within domain models guides data asset modeling documentation, change data capture (CDC), and metadata curation to align with definition and logic constraints found within the TLO universals and their more specific domain counterparts. This TLO/domain/data entity governance standard, when applied correctly, reduces unnecessary data remodeling across systems and enhances communication on concepts within communities of practice. 
+The features of BFO 2020 and ISO 21838-2 simplify and enrich the translation between data assets and languages through consistent and rigorous entity representation, collapsing dimensions for data modeling and analysis. Keeping domain models constrained and controlled via TLO standards encourages control over the dimensions which can represent an entity within a domain model. Additionally, integration of instances within domain models guides data asset modeling documentation, change data capture (CDC), and metadata curation to align with definition and logic constraints found within the TLO universals and their more specific domain counterparts. This TLO/domain/data entity governance standard, when applied correctly, reduces unnecessary data remodeling across systems and enhances communication on concepts within communities of practice.
 
 ## Challenge
 
@@ -80,9 +80,9 @@ Domain model concepts will not easily align to TLO entities. TLO entities, such 
 
 #### Entity Categories
 
-BFO 2020 or ISO 21838-2 have several entity types which an ontologist can use to build a domain ontology. Though abstract, this TLO's entities and logic can be of great utility in this categorization process. There may be many entities that cannot fit easily into a TLO entity category, but the effort must be made to first use what is in the TLO and expand only when absolutely necessary. Do not make leaps in logic that cannot be supported by the TLO or the assertions of SMEs intimately situated in what is and is not logical or real in their domain of expert practice. 
+BFO 2020 or ISO 21838-2 have several entity types which an ontologist can use to build a domain ontology. Though abstract, this TLO's entities and logic can be of great utility in this categorization process. There may be many entities that cannot fit easily into a TLO entity category, but the effort must be made to first use what is in the TLO and expand only when absolutely necessary. Do not make leaps in logic that cannot be supported by the TLO or the assertions of SMEs intimately situated in what is and is not logical or real in their domain of expert practice.
 
-All entities are things and `thing` is the root of all entities. BFO 2020 and other TLOs use the OWL `thing` as the starting point for their abstract models. This is important as it creates a link to other semantic expressions and logic built on legacy systems. This consideration of legacy is important as it may save work through use of older models and allows other communities of practice to use and exchange their ontology work in a more open and ubiquitous manner geared towards rapid interoperability. Once we understand the `thing and `entity` meta-classes, we can start working with the two major branches of entities: continuants and occurrents.
+All entities are things and `thing` is the root of all entities. BFO 2020 and other TLOs use the OWL `thing` as the starting point for their abstract models. This is important as it creates a link to other semantic expressions and logic built on legacy systems. This consideration of legacy is important as it may save work through use of older models and allows other communities of practice to use and exchange their ontology work in a more open and ubiquitous manner geared towards rapid interoperability. Once we understand the `thing and`entity` meta-classes, we can start working with the two major branches of entities: continuants and occurrents.
 
 Continuants are entities that are existing in the real world regardless of time. Suspending philosophical and logical arguments on what may or may not be constrained by some aspect of time, the intent of these entities is to establish things that engage in processes that are sufficiently temporal in dimensionality. Continuants consist of entities that exist on their own (e.g., independent continuants) or exist because of the existence of other entities (e.g., specifically dependent continuants). Other continuants exist on their own, but the carrier of said continuant may change (e.g., generically dependent continuant).
 
@@ -99,14 +99,14 @@ Nomenclature matters when building a domain ontology within a TLO compliance lay
 * Relationships (see below) can also aid in adding meaning between entities, so do not focus on using names to convey all relational information within an ontology relationship. Relationships convey information about the connection between domain ontology entities as well as how these connect to both the TLO universals and the instances that represent the manifestation of the domain entity in the real world.
 
 ```{note}
-cerDO, though a data ontology standard, only has nomenclature and semantic guidance for the standard itself. A separate, stable, and potentially open lexical guide is recommended in addition to cerDO to aid in consistent and rigorous naming practices. 
+cerDO, though a data ontology standard, only has nomenclature and semantic guidance for the standard itself. A separate, stable, and potentially open lexical guide is recommended in addition to cerDO to aid in consistent and rigorous naming practices.
 ```
 
 ##### Definitions and Hierarchy
 
 There is an intimate connection between domain ontology definitions and hierarchy that should be observed in this process. Definitions should clearly define for each entity the one, and only one, thing that makes it a distinct subclass of its parent class. In this way, the definition is the manner in which hierarchy, and as a result inheritance, is established within the ontology. Cummulative dimensions and rules matter the more granular the entity becomes from root to leaf in the ontology branches. This granularity has a direct impact on what instances, and as a result data, can represent a domain ontology entity.
 
-Definitions are perhaps the most tedious portion of this part of the standard. Necessary shifts in definition affect naming, hierarchy, and logic applied from TLO down to the instances. Care must be taken to check each definition in the domain ontology to resolve and validate all potential conflicts in TLO logic and instance population. A consistent, rigorous, and valid definition not only aids in validation of the domain ontology, it is critical in making the ontology applications for real world use. 
+Definitions are perhaps the most tedious portion of this part of the standard. Necessary shifts in definition affect naming, hierarchy, and logic applied from TLO down to the instances. Care must be taken to check each definition in the domain ontology to resolve and validate all potential conflicts in TLO logic and instance population. A consistent, rigorous, and valid definition not only aids in validation of the domain ontology, it is critical in making the ontology applications for real world use.
 
 ##### Validation Checks
 
@@ -121,7 +121,7 @@ Take your time and double check everything! Triple check and cross reference if 
 Following validation of the domain ontology, a check should be performed to ensure each domain entity has a data source of instances. This instance check means there is a source of data for which the domain entity has real-world, valid representations. The goal of producing the domain ontology is to preserve canonical truth for a domain of knowledge practice. The implication of this goal is that each entity can be observed in the real world. As a result, each entity should have instance data, singularly or in aggregate, collected methodologically through verified research methods. Data modeling work will occur in the proceeding section of this standard. You do not have to generate schema or aggregate information on data models: the TLO compliance step only requires that instance data is present and verified from the domain model phase and available for the data modeling phase.
 
 ```{note}
-If there is no data for an entity, it does not exist in the domain ontology unless there is an axiomatic placeholder using complete, valid logic expressions. 
+If there is no data for an entity, it does not exist in the domain ontology unless there is an axiomatic placeholder using complete, valid logic expressions.
 ```
 
 ### Identify Relations
@@ -175,18 +175,17 @@ Before proceeding to data modeling, the ontologists and knowledge engineers shou
 ## References
 
 [^1]: Arp, R., Smith, B., Spear, A.D., Building Ontologies with Basic Formal Ontology.
-[^2]: Roe, C., A Short History of Ontology: It’s Not Just a Matter of Philosophy Anymore. https://www.dataversity.net/a-short-history-of-ontology-its-not-just-a-matter-of-philosophy-anymore/; Also see Arp et al.
+[^2]: Roe, C., A Short History of Ontology: It’s Not Just a Matter of Philosophy Anymore. <https://www.dataversity.net/a-short-history-of-ontology-its-not-just-a-matter-of-philosophy-anymore/>; Also see Arp et al.
 [^3]: Berners-Lee, T., Hendler, J., Lassila, O. The Semantic Web.
-[^4]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. https://www.w3.org/TR/rdf-schema/
-[^5]: W3C OWL Working Group. OWL 2 Web Ontology Language. https://www.w3.org/TR/owl2-overview/
-[^6]: URN. Uniform Resource Name. https://en.m.wikipedia.org/wiki/Uniform_Resource_Name
+[^4]: W3C. RDF Schema 1.1., Eds. Brickley, D., Guha, R.V., McBride, B. <https://www.w3.org/TR/rdf-schema/>
+[^5]: W3C OWL Working Group. OWL 2 Web Ontology Language. <https://www.w3.org/TR/owl2-overview/>
+[^6]: URN. Uniform Resource Name. <https://en.m.wikipedia.org/wiki/Uniform_Resource_Name>
 [^7]: Musen, M.A. The Protégé project: A look back and a look forward.
-[^8]: Smith, B. Ontology Tutorial: Semantic Technology for Intelligence, Defense and Security. https://www.slideshare.net/BarrySmith3/ontology-tutorial-semantic-technology-for-intelligence-defense-and-security
-[^9]: ISO. ISO/IEC 21838-1: Information technology — Top-level ontologies (TLO). https://www.iso.org/standard/74572.html
+[^8]: Smith, B. Ontology Tutorial: Semantic Technology for Intelligence, Defense and Security. <https://www.slideshare.net/BarrySmith3/ontology-tutorial-semantic-technology-for-intelligence-defense-and-security>
+[^9]: ISO. ISO/IEC 21838-1: Information technology — Top-level ontologies (TLO). <https://www.iso.org/standard/74572.html>
 [^10]: Also known as classes or types that are shared across domains
-[^11]: BFO 2020 Repository. https://github.com/BFO-ontology/BFO-2020)
-[^12]: Sowa, J.F., Introduction to Common Logic. https://www.jfsowa.com/talks/clintro.pdf
+[^11]: BFO 2020 Repository. <https://github.com/BFO-ontology/BFO-2020>)
+[^12]: Sowa, J.F., Introduction to Common Logic. <https://www.jfsowa.com/talks/clintro.pdf>
 [^13]: In BFO, continuants and occurrents are subclasses of “entity” which is in turn a subclass of “thing.” Knowledge engineers and ontologists will largely be working below the entity class, but the ontology is rooted at “thing” to ensure legacy connection to OWL RDF-compliant ontologies also rooted at “thing”.
-[^14]: Common Core Ontologies (CCO). Accessed at https://github.com/CommonCoreOntology/CommonCoreOntologies
-[^15]: BFO - Users. https://basic-formal-ontology.org/users.html
-
+[^14]: Common Core Ontologies (CCO). Accessed at <https://github.com/CommonCoreOntology/CommonCoreOntologies>
+[^15]: BFO - Users. <https://basic-formal-ontology.org/users.html>

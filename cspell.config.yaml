@@ -1,0 +1,71 @@
+version: "0.2"
+ignorePaths:
+  - "*.svg"
+  - _build
+  - Makefile
+  - .gitignore
+  - _config.yml
+  - _toc.yml
+  - "*.xml"
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - Certus
+  - ciutshi
+  - interpretability
+  - soo-shee
+ignoreWords:
+  - autoupdate
+  - actants
+  - actioned
+  - adeu
+  - Apress
+  - Atwal
+  - Axelos
+  - axyb
+  - Berkun
+  - burndown
+  - cgrii
+  - CMMI
+  - CZUWZ
+  - d4dcommunity
+  - DAMA
+  - dataops
+  - datetimes
+  - DMBOK
+  - Driessen
+  - Earley
+  - EHYUP
+  - FOSS
+  - geospatial
+  - Grabill
+  - Harvinder
+  - Hotfixes
+  - Idcmh
+  - infosec
+  - infosec
+  - ITIL
+  - Keever
+  - KHTML
+  - kmyrf
+  - Ladley
+  - lusa
+  - metadata
+  - metamodel*
+  - metamodeling
+  - NCHHSTP
+  - RDBMS
+  - Ruparelia
+  - Scrumban
+  - Sebastopol
+  - SIGSOFT
+  - Slideshare
+  - smqh
+  - socio-technical
+  - Sykora
+  - timeframe
+  - timeframes
+  - Tshi
+  - Tshi's
+  - ZHGS
+import: []

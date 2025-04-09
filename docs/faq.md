@@ -23,4 +23,4 @@ Diagrams are coming in the next minor release along with a legend and other visu
 
 ## Are there any examples of this standard being applied to knowledge graphs, structured, or unstructured data products?
 
-There are appendicies with examples coming in the next minor release to demonstrate the standard's application for several data products.
+There are appendices with examples coming in the next minor release to demonstrate the standard's application for several data products.

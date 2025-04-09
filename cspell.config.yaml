@@ -15,57 +15,58 @@ words:
   - interpretability
   - soo-shee
 ignoreWords:
-  - autoupdate
-  - actants
-  - actioned
-  - adeu
-  - Apress
+  - Angele
   - Atwal
-  - Axelos
-  - axyb
-  - Berkun
-  - burndown
-  - cgrii
-  - CMMI
-  - CZUWZ
-  - d4dcommunity
+  - autoupdate
+  - Berners
+  - Borgatti
+  - Brickley
   - DAMA
-  - dataops
-  - datetimes
-  - DMBOK
-  - Driessen
+  - Delen
   - Earley
-  - EHYUP
-  - FOSS
-  - geospatial
-  - Grabill
-  - Harvinder
-  - Hotfixes
-  - Idcmh
-  - infosec
-  - infosec
-  - ITIL
-  - Keever
-  - KHTML
-  - kmyrf
+  - Fensel
+  - Gruber
+  - Guha
+  - Hendler
+  - Huaman
+  - hypergraph
+  - hypergraphs
+  - Karle
+  - Keet
+  - Kitchin
   - Ladley
-  - lusa
-  - metadata
-  - metamodel*
-  - metamodeling
-  - NCHHSTP
+  - lakehouse
+  - Lassila
+  - Latour
+  - Leondes
+  - Musen
+  - Neta
+  - occurrent
+  - occurrents
+  - ontologists
+  - Panasiuk
   - RDBMS
-  - Ruparelia
-  - Scrumban
-  - Sebastopol
-  - SIGSOFT
-  - Slideshare
-  - smqh
-  - socio-technical
+  - Sharda
+  - Simsek
+  - Sowa
+  - Steup
   - Sykora
-  - timeframe
-  - timeframes
-  - Tshi
-  - Tshi's
-  - ZHGS
+  - Tahko
+  - Toma
+  - Umbrich
+  - Wahler
+  - Wasserman
+  - Zalta
+  - triplestore
+  - DMBOK
+  - deconfliction
+  - embeddedness
+  - socio-technical
+  - enculturated
+  - metametaphysics
+  - dataops
+  - Apress
+  - actants
+  - spatio-temporal
+  - monohierarchy
 import: []

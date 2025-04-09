@@ -1,7 +1,5 @@
 # cerDO
 
-Release v0.1.0
-
 ## The Certus Data Ontology Standard
 
 The Certus Data Ontology (cerDO) is a standard for consistently representing and rigorously managing data-instantiated ontological entities. The standard guides engineers, leadership, and all data users toward a shared understanding of their data's connection to real-world entities, facilitating collaboration and longitudinal analysis of organizational data. Using cerDO will result in high-quality institutional knowledge, improving the contextual understanding of data assets, organizational decisions, and their measurable impact.
@@ -16,31 +14,4 @@ This project is by data professionals for data professionals at all levels. As a
 
 ### License
 
-This content is subject to the terms of the GNU Lesser General Public License v3.0. If a copy of the LGPL-v3 was not distributed with this file, You can obtain one at https://www.gnu.org/licenses/lgpl-3.0.html.
-
-```{toctree}
-:hidden:
-:maxdepth: 2
-:caption: "Getting Started"
-
-summary
-faq
-```
-
-```{toctree}
-:hidden:
-:maxdepth: 2
-:caption: "Standard"
-
-domain_model
-tlo_compliance
-data_model
-```
-
-```{toctree}
-:hidden:
-:maxdepth: 2
-:caption: "Appendices"
-
-appendix_a
-```
+This content is subject to the terms of the GNU Lesser General Public License v3.0. If a copy of the LGPL-v3 was not distributed with this file, You can obtain one at <https://www.gnu.org/licenses/lgpl-3.0.html>.

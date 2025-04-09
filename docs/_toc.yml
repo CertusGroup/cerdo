@@ -1,0 +1,15 @@
+format: jb-book
+root: index
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: summary
+      - file: faq
+  - caption: Standard
+    chapters:
+      - file: domain_model
+      - file: tlo_compliance
+      - file: data_model
+  - caption: Appendices
+    chapters:
+      - file: appendix_a

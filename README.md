@@ -1,3 +1,3 @@
 # cerDO
 
-the Certus Data Ontology Framework
+the Certus Data Ontology Standard

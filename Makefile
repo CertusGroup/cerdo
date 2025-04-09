@@ -7,7 +7,7 @@ DOCS_DIR := docs
 install:  ## Install a virtual environment
 	python3 -m venv ${VENV}
 	${VENV}/bin/pip install --upgrade pip
-	${VENV}/bin/pip install -r ${DOCS_DIR}/requirements.txt
+	${VENV}/bin/pip install -r requirements.txt
 
 .PHONY: fmt
 fmt: install ## Run autoformatting and linting

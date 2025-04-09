@@ -8,7 +8,7 @@ The following sections will introduce the background, challenges, and goals of c
 
 ## Introduction
 
-Thought and dialogue using quickly accessed portions of our cumulative knowledge are daily practices for humans. As our accumulation of facts, contexts, and experiences shifts, so do the dialogues at varying scales. This shift is also replete with misunderstanding, fallacy, and cognitive bias, making communication between people and their discussions increasingly difficult to decipher. Embeddedness in their cumulative, bespoke knowledge complicates understanding and exchange between themselves and those with whom they share the most. To address these issues, we build interstitial logic, systemic structure, and tools to assist in understanding and conveying knowledge in the most fundamental ways. As a result, individuals and groups can exchange ideas and information that they both process within the same models and understandings.
+Thought and dialogue using quickly accessed portions of our cumulative knowledge are daily practices for humans. As our accumulation of facts, contexts, and experiences shifts, so do the dialogues at varying scales. This shift is also replete with misunderstanding, fallacy, and cognitive bias, making communication between people and their discussions increasingly difficult to decipher. Embeddedness in their cumulative, bespoke knowledge complicates understanding and exchange between themselves and those with whom they share the most. To address these issues, we build interstitial logic, systemic structure, and tools to assist in understanding and conveying knowledge in the most fundamental ways. As a result, individuals and groups can exchange ideas and information that they process within the same models and understandings.
 
 However, this increasingly insurmountable complexity in human knowledge systems begs the question why we readily accept data as facts and their models as canonical truths. We need a better approach to truly understand the transformation of data into knowledge that is persistently valid, consistent, and rigorous.
 
@@ -64,7 +64,7 @@ Mobilizing knowledge in this way takes time. Domain ontologies must adapt to cha
 
 Data management and governance are critical for knowledge system success. Data volume continues to grow and their semantic connection is increasingly complex to model in data systems. Data is often messy and its origins opaque to the engineers and managers required to make these assets usable by data customers. These assets require reliable structure, metadata, and insight to ensure the context of application and its limitations are understood prior to and following exploratory data analysis and modeling. If knowledge systems are to be canonical repositories for domain knowledge, the observations and models that validate its existent must be as consistent and rigorous as the entity representations they support.
 
-Persistent engagement and education are paramount to efficiently mobilizing knowledge system assets. From the domain ontology model to its instantiation in the data, communities of practice know what they know best. Despite this knowledge, effort and care must be taken to express this knowledge in a way that enables ubiquitous access and understanding by those who seek to leverage that domain knowledge. Experts often neglect to explore expressions that cover key knowledge gaps and tacit entities pertaining to their immediate explicit functions. Ontology standards can resolved these challenges, allowing access to challenging knowledge topics through consistent structures that expands the lexicon of the community of practice and the utility of the knowledge system.
+Persistent engagement and education are paramount to efficiently mobilizing knowledge system assets. From the domain ontology model to its instantiation in the data, communities of practice know what they know best. Despite this knowledge, effort and care must be taken to express this knowledge in a way that enables ubiquitous access and understanding by those who seek to leverage that domain knowledge. Experts often neglect to explore expressions that cover key knowledge gaps and tacit entities pertaining to their immediate explicit functions. Ontology standards can resolve these challenges, allowing access to challenging knowledge topics through consistent structures that expands the lexicon of the community of practice and the utility of the knowledge system.
 
 ## Challenges
 
@@ -88,20 +88,16 @@ The goal of cerDO is to make a very difficult ontology building process easier t
 * Top-level and domain ontology model alignment
 * Data and domain ontology alignment
 
-> insert workflow diagram here
-
 Each phase engages with the essential elements of your knowledge model. First, knowledge artifacts are documented and structured into conceptual entity relationships using the best available information from subject-matter experts and communities of practice. The entity model is then aligned, element by element, to a top-level ontology, ensuring consistency across domain ontology models and their derivative knowledge graphs. Finally, the entities integrate a schema to align data state to the domain ontology in way that supports the class relationships established in previous stages.
 
 This process ultimately demonstrates the myriad reasons connections between data, information, and knowledge artifacts are critical when building knowledge governance systems. Each data asset, often processed from some raw format, must maintain a consolidated artifact of lineage and provenance to ensure proper domain modeling and data alignment. This information, through a careful application of metadata and data management practices, ensures tagged domain entities connect to labeled data asset dimensions the same way every time. Schema assists in this effort, enforcing consistent data type application in asset management across domain ontology models despite shifts in data state. These fundamental tenets guide governance at all levels, connecting data operations[^14] at each level to the efficacy of the others. As a result, efforts can reliably reproduce network effects aligned with subject-matter expert expectations while adapting within TLO and knowledge governance standards. 
-
-> Insert knowledge diagram here
 
 ```{note}
 There are many ways to tackle these phases and their respective tasks: synchronously or concurrently with different methods and models. Due to this we encourage experienced ontology engineering practitioners to experiment and send feedback on best practices. Newcomers to these processes are encouraged to take this workflow slowly and with great consideration towards their specific needs and goals for the ontology structures they will ultimately build and deploy.
 ```
 
 ```{note}
-This standard takes into account the work currently being explored in dimensional modeling and feature engineering for use in large, semantically-driven AI models. The intent of cerDO is to be complimentary to these efforts when applicable.
+This standard takes into account the work currently being explored in dimensional modeling and feature engineering for use in large, semantically-driven AI agent models. The intent of cerDO is to be complimentary to these efforts when applicable.
 ```
 
 ### Domain Modeling

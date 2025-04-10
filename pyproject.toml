@@ -1,0 +1,12 @@
+[project]
+dependencies = ["jupyter-book>=1.0.4.post1"]
+description = "cerDO (Certus Data Ontology) is a standard for consistently representing and rigorously managing data-instantiated ontological entities. It simplifies knowledge modeling, ensures consistent data-to-ontology alignment, and supports applications like knowledge graphs and AI systems, fostering collaboration and improving organizational decision-making."
+name = "cerDO"
+readme = "README.md"
+requires-python = ">=3.11"
+version = "0.1.0"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
